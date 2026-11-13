@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Account, billing or proxy access
+    url: https://fusionproxy.net/contact?utm_source=github&utm_medium=referral&utm_campaign=org-issue-template
+    about: Credentials, payments, traffic and connection problems with your Fusion Proxy account are handled by support.
+  - name: Setup guides
+    url: https://fusionproxy.net/guides?utm_source=github&utm_medium=referral&utm_campaign=org-issue-template
+    about: Step-by-step guides for browsers, scraping tools and anti-detect browsers.

@@ -1,0 +1,38 @@
+name: Bug report
+description: Something in this repository does not work as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Problems with your Fusion Proxy account, billing or credentials go to support@fusionproxy.net, not here.
+        **Never paste your proxy password in an issue.**
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Command and full error output
+      description: Replace usernames and passwords with USER and PASS.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Tool version or commit, and your language version (for example "proxy-checker 0.2.0, Go 1.23" or "Python 3.12, Scrapy 2.13").
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: ["Windows", "macOS", "Linux", "Other"]
+    validations:
+      required: true
